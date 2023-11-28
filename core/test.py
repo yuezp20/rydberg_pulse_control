@@ -6,6 +6,3 @@ waveform_1013_file_name = {"1013_1": None, "1013_2": None, "1013_3": None, "1013
 
 combined_dict = {'waveform_420_file_name': waveform_420_file_name, 'waveform_1013_file_name': waveform_1013_file_name}
 
-# 保存整个字典到文件
-with open('../initialize/shared_data.pickle', 'wb') as file:
-    pickle.dump(combined_dict, file)
